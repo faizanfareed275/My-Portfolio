@@ -1,0 +1,247 @@
+/* Dark Theme Variables */
+[data-theme="dark"] {
+    /* Dark Theme Colors */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    --border: #334155;
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark theme specific styles */
+[data-theme="dark"] .navbar {
+    background: rgba(15, 23, 42, 0.95);
+    border-bottom-color: var(--border);
+}
+
+[data-theme="dark"] .hero-background {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+[data-theme="dark"] .hero-particles {
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(245, 158, 11, 0.15) 0%, transparent 50%);
+}
+
+[data-theme="dark"] .skill-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .project-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .contact-form,
+[data-theme="dark"] .admin-form {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group textarea,
+[data-theme="dark"] .form-group select {
+    background: var(--bg-tertiary);
+    border-color: var(--border);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .form-group input::placeholder,
+[data-theme="dark"] .form-group textarea::placeholder {
+    color: var(--text-muted);
+}
+
+[data-theme="dark"] .tech-tag {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .social-links a {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .toast {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .admin-content {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .admin-header {
+    border-bottom-color: var(--border);
+}
+
+/* Theme transition animations */
+* {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle i {
+    transition: transform 0.3s ease;
+}
+
+[data-theme="dark"] .theme-toggle i:before {
+    content: "\f185"; /* sun icon */
+}
+
+.theme-toggle:hover i {
+    transform: rotate(180deg);
+}
+
+/* Scrollbar styling for dark theme */
+[data-theme="dark"] ::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Light theme scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Selection colors */
+::selection {
+    background: var(--primary);
+    color: white;
+}
+
+[data-theme="dark"] ::selection {
+    background: var(--primary);
+    color: white;
+}
+
+/* Focus styles for better accessibility */
+[data-theme="dark"] .btn:focus,
+[data-theme="dark"] .nav-link:focus,
+[data-theme="dark"] .form-group input:focus,
+[data-theme="dark"] .form-group textarea:focus,
+[data-theme="dark"] .form-group select:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* Animation for theme switching */
+.theme-switching * {
+    transition: none !important;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .scroll-arrow {
+        animation: none;
+    }
+    
+    .cursor {
+        animation: none;
+    }
+    
+    .spinner {
+        animation: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --border: #000000;
+        --shadow: rgba(0, 0, 0, 0.5);
+    }
+    
+    [data-theme="dark"] {
+        --border: #ffffff;
+        --shadow: rgba(255, 255, 255, 0.3);
+    }
+    
+    .btn-primary {
+        border: 2px solid currentColor;
+    }
+    
+    .btn-secondary {
+        border-width: 3px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .scroll-progress,
+    .back-to-top,
+    .theme-toggle,
+    .admin-panel,
+    .toast {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+    
+    section {
+        padding: 1rem 0;
+        break-inside: avoid;
+    }
+    
+    .project-card,
+    .skill-item {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}

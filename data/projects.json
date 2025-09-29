@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, payment processing with Stripe, product management, shopping cart functionality, and comprehensive admin dashboard with analytics.",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe", "JWT", "Redux", "Express"],
+    "category": "web",
+    "image": "./assets/images/project1.jpg",
+    "github": "https://github.com/yourusername/ecommerce-platform",
+    "demo": "https://ecommerce-demo.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "A collaborative task management application with real-time updates using Socket.io, drag-and-drop functionality, team collaboration features, project timelines, and notification system. Built with Vue.js and PostgreSQL for scalability.",
+    "technologies": ["Vue.js", "Socket.io", "Express", "PostgreSQL", "Vuex", "JWT"],
+    "category": "web",
+    "image": "./assets/images/project2.jpg",
+    "github": "https://github.com/yourusername/task-manager",
+    "demo": "https://task-manager-demo.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Mobile App",
+    "description": "A React Native weather application with location-based forecasts, interactive maps using MapBox, push notifications for weather alerts, offline data caching, and beautiful animated weather icons. Integrates with OpenWeather API.",
+    "technologies": ["React Native", "OpenWeather API", "Redux", "AsyncStorage", "MapBox", "Push Notifications"],
+    "category": "mobile",
+    "image": "./assets/images/project3.jpg",
+    "github": "https://github.com/yourusername/weather-app",
+    "demo": "https://expo.dev/@yourusername/weather-app",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "RESTful API Service",
+    "description": "A scalable RESTful API service built with Node.js and Express, featuring JWT authentication, rate limiting, Redis caching, input validation, error handling, and comprehensive API documentation using Swagger. Deployed on AWS with CI/CD pipeline.",
+    "technologies": ["Node.js", "Express", "Redis", "JWT", "Swagger", "AWS", "Docker"],
+    "category": "api",
+    "image": "./assets/images/project4.jpg",
+    "github": "https://github.com/yourusername/api-service",
+    "demo": "https://api-service-docs.herokuapp.com",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Website",
+    "description": "A responsive portfolio website built with vanilla JavaScript, featuring dynamic content loading from JSON, dark/light mode toggle, smooth scroll animations using AOS library, contact form validation, and admin panel for content management.",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "AOS", "LocalStorage", "JSON"],
+    "category": "web",
+    "image": "./assets/images/project5.jpg",
+    "github": "https://github.com/yourusername/portfolio",
+    "demo": "https://yourportfolio.netlify.app",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Real-time Chat Application",
+    "description": "A real-time chat application with private messaging, group chats, file sharing capabilities, emoji support, message encryption, and user presence indicators. Built with React and Socket.io, featuring Cloudinary for media storage.",
+    "technologies": ["React", "Socket.io", "Node.js", "MongoDB", "Cloudinary", "JWT", "Encryption"],
+    "category": "web",
+    "image": "./assets/images/project6.jpg",
+    "github": "https://github.com/yourusername/chat-app",
+    "demo": "https://chat-app-demo.herokuapp.com",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Fitness Tracking App",
+    "description": "A comprehensive fitness tracking mobile application with workout logging, progress tracking, social features, meal planning, and integration with wearable devices. Features custom workout builder and nutrition database.",
+    "technologies": ["React Native", "Firebase", "HealthKit", "Google Fit", "Redux", "Charts.js"],
+    "category": "mobile",
+    "image": "./assets/images/project7.jpg",
+    "github": "https://github.com/yourusername/fitness-app",
+    "demo": "https://expo.dev/@yourusername/fitness-tracker",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "Blog CMS Platform",
+    "description": "A content management system for bloggers with rich text editor, media management, SEO optimization, comment system, user roles, and analytics dashboard. Built with Next.js for optimal performance and SEO.",
+    "technologies": ["Next.js", "MongoDB", "TinyMCE", "Cloudinary", "NextAuth", "Analytics"],
+    "category": "web",
+    "image": "./assets/images/project8.jpg",
+    "github": "https://github.com/yourusername/blog-cms",
+    "demo": "https://blog-cms-demo.vercel.app",
+    "featured": true
+  },
+  {
+    "id": 9,
+    "title": "GraphQL API Gateway",
+    "description": "A GraphQL API gateway that aggregates multiple REST APIs, provides unified data access, implements caching strategies, and includes real-time subscriptions. Features comprehensive error handling and monitoring.",
+    "technologies": ["GraphQL", "Apollo Server", "Node.js", "Redis", "DataLoader", "Monitoring"],
+    "category": "api",
+    "image": "./assets/images/project9.jpg",
+    "github": "https://github.com/yourusername/graphql-gateway",
+    "demo": "https://graphql-gateway-demo.herokuapp.com/graphql",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "Expense Tracker PWA",
+    "description": "A Progressive Web App for expense tracking with offline functionality, budget management, expense categorization, receipt scanning using OCR, and detailed financial reports with charts and insights.",
+    "technologies": ["PWA", "IndexedDB", "Chart.js", "OCR", "Service Workers", "Web Share API"],
+    "category": "web",
+    "image": "./assets/images/project10.jpg",
+    "github": "https://github.com/yourusername/expense-tracker",
+    "demo": "https://expense-tracker-pwa.netlify.app",
+    "featured": false
+  }
+]
