@@ -239,6 +239,4 @@ If you have questions or need help customizing the portfolio:
 
 ---
 
-**Made with ❤️ and vanilla JavaScript**
-
-*Remember to replace all placeholder content with your actual information before deploying!*
+**Made with ❤️ Faizan**

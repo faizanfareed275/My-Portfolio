@@ -1275,6 +1275,71 @@ section {
         font-size: 0.75rem;
     }
 
+    /* Experience Section Mobile */
+    .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .exp-card {
+        border-radius: 12px;
+    }
+
+    .exp-header {
+        padding: 1rem 1rem 0;
+        margin-bottom: 0.75rem;
+    }
+
+    .exp-company-logo {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+
+    .exp-status {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .exp-content {
+        padding: 0 1rem 1rem;
+    }
+
+    .exp-title {
+        font-size: 1.1rem;
+    }
+
+    .exp-company {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .exp-duration {
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .exp-location {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .exp-achievements li {
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .exp-skills {
+        gap: 0.3rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .skill-tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+
     /* Resume Section Mobile */
     .resume-content {
         padding: 0 0.25rem;
@@ -1629,6 +1694,220 @@ section { padding: calc(var(--space-3xl) + 0.5rem) 0; }
 
 .edu-points { margin: .25rem 0 0 0; padding-left: 1.1rem; color: var(--text-secondary); }
 .edu-points li { margin: .25rem 0; }
+
+/* Experience Section */
+.experience {
+    background: var(--bg-secondary);
+    position: relative;
+    overflow: hidden;
+}
+
+.experience::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+}
+
+.exp-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 0;
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.exp-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.12);
+    border-color: var(--primary);
+}
+
+.exp-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-lg) var(--space-lg) 0;
+    margin-bottom: var(--space-md);
+}
+
+.exp-company-logo {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);
+}
+
+.exp-status {
+    background: var(--success);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.exp-status--future {
+    background: var(--accent);
+}
+
+.exp-content {
+    padding: 0 var(--space-lg) var(--space-lg);
+}
+
+.exp-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.exp-company {
+    font-size: 1rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+
+.exp-duration {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.exp-duration i {
+    color: var(--primary);
+}
+
+.exp-period {
+    background: var(--bg-tertiary);
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.exp-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-lg);
+}
+
+.exp-location i {
+    color: var(--primary);
+}
+
+.exp-achievements {
+    list-style: none;
+    margin-bottom: var(--space-lg);
+}
+
+.exp-achievements li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.exp-achievements i {
+    color: var(--success);
+    margin-top: 0.125rem;
+    flex-shrink: 0;
+}
+
+.exp-card--future .exp-achievements i {
+    color: var(--accent);
+}
+
+.exp-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: var(--space-md);
+}
+
+.skill-tag {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.skill-tag:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.exp-cta {
+    margin-top: var(--space-lg);
+}
+
+.exp-cta .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.exp-card--future {
+    border: 2px dashed var(--border);
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.exp-card--future:hover {
+    border-color: var(--accent);
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+.exp-card--future::before {
+    background: linear-gradient(90deg, var(--accent), var(--warning));
+}
 
 /* Projects Section */
 .projects { background: var(--bg-primary); }

@@ -71,6 +71,16 @@
     border: 1px solid var(--border);
 }
 
+[data-theme="dark"] .exp-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .skill-tag {
+    background: var(--bg-tertiary);
+    border-color: var(--border);
+}
+
 [data-theme="dark"] .admin-content {
     background: var(--bg-secondary);
     border: 1px solid var(--border);
