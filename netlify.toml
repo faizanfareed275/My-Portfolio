@@ -53,7 +53,7 @@
 
 # Security redirects
 [[redirects]]
-  from = "http://yoursite.netlify.app/*"
-  to = "https://yoursite.netlify.app/:splat"
+  from = "http://faizan-fareed-portfolio.netlify.app/*"
+  to = "https://faizan-fareed-portfolio.netlify.app/:splat"
   status = 301
   force = true

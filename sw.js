@@ -1,7 +1,7 @@
-// Service Worker for Portfolio Website
+// Service Worker for Faizan Fareed's Portfolio Website
 // Provides basic caching for offline functionality
 
-const CACHE_NAME = 'portfolio-v1';
+const CACHE_NAME = 'faizan-portfolio-v1';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -9,11 +9,9 @@ const urlsToCache = [
   '/styles/themes.css',
   '/scripts/main.js',
   '/scripts/project-loader.js',
-  '/scripts/education-loader.js',
   '/scripts/admin-panel.js',
   '/scripts/form-validation.js',
   '/data/projects.json',
-  '/data/education.json',
   '/assets/images/profile.jpg',
   '/resume/resume.pdf',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',

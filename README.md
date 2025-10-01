@@ -1,6 +1,6 @@
-# 🚀 Dynamic Portfolio Website
+# 🚀 Faizan Fareed - Full Stack Developer Portfolio
 
-A fully responsive, modern, and dynamic personal portfolio website built with HTML5, CSS3, and vanilla JavaScript. Features dynamic content loading, dark/light mode toggle, smooth animations, and an admin panel for content management.
+A fully responsive, modern, and dynamic personal portfolio website for Faizan Fareed, showcasing full-stack development skills. Built with HTML5, CSS3, and vanilla JavaScript. Features dynamic project loading, dark/light mode toggle, smooth animations, and professional design.
 
 ## ✨ Features
 
@@ -14,12 +14,14 @@ A fully responsive, modern, and dynamic personal portfolio website built with HT
 - **SEO Optimized**: Meta tags, Open Graph, and semantic HTML
 
 ### 📱 Sections
-1. **Hero Section**: Name, title, typewriter tagline, and CTA buttons
-2. **About Section**: Bio, skills showcase, and animated statistics
-3. **Projects Section**: Dynamic project cards with filtering and search
-4. **Resume Section**: PDF preview and download functionality
-5. **Contact Section**: Validated contact form with toast notifications
-6. **Footer**: Social links and navigation
+1. **Hero Section**: Faizan's introduction, professional title, and call-to-action buttons
+2. **About Section**: Professional bio, technical skills, and experience statistics
+3. **Education Section**: Academic background and certifications
+4. **Experience Section**: Professional work history and achievements
+5. **Projects Section**: Dynamic project showcase with filtering (Web Apps, Mobile, APIs)
+6. **Resume Section**: PDF preview and download functionality
+7. **Contact Section**: Professional contact form with validation
+8. **Footer**: Social media links and professional networks
 
 ### 🔧 Dynamic Features
 - **Admin Panel**: Hidden content management system (`?admin=true`)
@@ -103,7 +105,7 @@ Edit CSS variables in `styles/main.css`:
 ```
 
 ### Adding Projects
-Use the admin panel (`?admin=true`) or edit `data/projects.json`:
+edit `data/projects.json`:
 ```json
 {
     "id": 1,
@@ -157,7 +159,6 @@ Access the admin panel by adding `?admin=true` to the URL:
 1. Push code to GitHub repository
 2. Go to Settings > Pages
 3. Select source branch (main/master)
-4. Your site will be available at `https://username.github.io/repository-name`
 
 ### Netlify
 1. Connect your GitHub repository
@@ -239,4 +240,20 @@ If you have questions or need help customizing the portfolio:
 
 ---
 
-**Made with ❤️ Faizan**
+**Made with ❤️ by Faizan Fareed**
+
+## 👨‍💻 About the Developer
+
+**Faizan Fareed** is a passionate Full Stack Developer with expertise in:
+- **Frontend**: HTML5, CSS3, JavaScript, React, Vue.js
+- **Backend**: Node.js, PHP, Laravel, Express.js
+- **Databases**: MongoDB, MySQL, PostgreSQL
+- **Tools**: Git, Docker, AWS, Bootstrap
+
+Currently working as Teaching Faculty at Aptech Pakistan, mentoring students in full-stack web development while actively seeking new opportunities to contribute to innovative projects.
+
+**Contact Information:**
+- 📧 Email: faizanfareed275@gmail.com
+- 📱 Phone: +92 331 0267790
+- 🌍 Location: Karachi, Pakistan
+
