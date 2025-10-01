@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of [Your Name] - Full Stack Developer specializing in modern web technologies">
+    <meta name="description"
+        content="Professional portfolio of [Your Name] - Full Stack Developer specializing in modern web technologies">
     <meta name="keywords" content="web developer, portfolio, full stack, javascript, html, css">
     <meta name="author" content="[Your Name]">
-    
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="[Your Name] - Portfolio">
     <meta property="og:description" content="Professional portfolio showcasing web development projects and skills">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourportfolio.com">
     <meta property="og:image" content="./assets/images/og-image.jpg">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="[Your Name] - Portfolio">
     <meta name="twitter:description" content="Professional portfolio showcasing web development projects and skills">
     <meta name="twitter:image" content="./assets/images/og-image.jpg">
-    
+
     <title>Faizan Fareed - Full Stack Developer Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    
+
     <!-- CSS Files -->
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/themes.css">
-    
+
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
     <a href="#home" class="skip-link">Skip to content</a>
-    
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -47,12 +50,12 @@
                 <a href="#about" class="nav-link">About</a>
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#experience" class="nav-link">Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
                 <a href="#resume" class="nav-link">Resume</a>
                 <a href="#contact" class="nav-link">Contact</a>
                 <!-- Mobile controls: show inside slide-out menu on small screens -->
                 <div class="nav-mobile-controls" aria-hidden="true">
-                    <button class="theme-toggle theme-toggle--mobile" id="themeToggleMobile" data-theme-toggle aria-label="Toggle color theme">
+                    <button class="theme-toggle theme-toggle--mobile" id="themeToggleMobile" data-theme-toggle
+                        aria-label="Toggle color theme">
                         <i class="fas fa-moon"></i>
                     </button>
                     <a href="#contact" class="btn btn-primary" aria-label="Contact">
@@ -60,7 +63,8 @@
                     </a>
                 </div>
             </div>
-            <div class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-label="Toggle navigation" role="button" tabindex="0">
+            <div class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-label="Toggle navigation" role="button"
+                tabindex="0">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -68,7 +72,8 @@
             <a href="#contact" class="btn btn-primary nav-cta" aria-label="Hire Me">
                 <i class="fas fa-handshake"></i> Hire Me
             </a>
-            <button class="theme-toggle theme-toggle--header" id="themeToggle" data-theme-toggle aria-label="Toggle dark mode">
+            <button class="theme-toggle theme-toggle--header" id="themeToggle" data-theme-toggle
+                aria-label="Toggle dark mode">
                 <i class="fas fa-moon"></i>
             </button>
         </div>
@@ -121,7 +126,8 @@
                 <div class="hero-right">
                     <div class="hero-visual">
                         <div class="blob"></div>
-                        <img class="hero-avatar" src="./assets/images/profile.jpg" alt="[Your Name] portrait" onerror="this.src='./assets/images/placeholder.jpg'" />
+                        <img class="hero-avatar" src="./assets/images/profile.jpg" alt="[Your Name] portrait"
+                            onerror="this.src='./assets/images/placeholder.jpg'" />
                         <div class="float-card fc-1">
                             <i class="fas fa-code"></i>
                             <span>Clean Code</span>
@@ -150,7 +156,8 @@
             <div class="about-grid">
                 <aside class="about-profile" data-aos="fade-right">
                     <div class="profile-frame">
-                        <img src="./assets/images/profile.jpg" alt="Profile Picture" class="profile-img" loading="lazy" onerror="this.src='./assets/images/placeholder.jpg'">
+                        <img src="./assets/images/profile.jpg" alt="Profile Picture" class="profile-img" loading="lazy"
+                            onerror="this.src='./assets/images/placeholder.jpg'">
                         <span class="ring"></span>
                     </div>
                     <div class="profile-badges">
@@ -161,7 +168,9 @@
                 </aside>
                 <div class="about-main" data-aos="fade-left">
                     <p class="about-description">
-                        I’m a Full Stack Developer focused on crafting fast, accessible, and maintainable web apps. I enjoy turning complex problems into elegant solutions, and I care deeply about clean architecture and great UX.
+                        I’m a Full Stack Developer focused on crafting fast, accessible, and maintainable web apps. I
+                        enjoy turning complex problems into elegant solutions, and I care deeply about clean
+                        architecture and great UX.
                     </p>
                     <ul class="about-highlights">
                         <li><i class="fas fa-check-circle"></i> End-to-end delivery: from concept to deploy</li>
@@ -201,7 +210,7 @@
         </div>
     </section>
 
-    
+
     <!-- Education Section -->
     <section id="education" class="education">
         <div class="container">
@@ -248,8 +257,8 @@
                     </div>
                 </div>
 
-                 <!-- Item 2 -->
-                 <div class="edu-item">
+                <!-- Item 2 -->
+                <div class="edu-item">
                     <span class="edu-dot"></span>
                     <div class="edu-card">
                         <div class="edu-header">
@@ -262,8 +271,28 @@
                             <span><i class="fas fa-award"></i> A Grade</span>
                         </div>
                         <ul class="edu-points">
-                            <li>Gained hands-on experience with HTML, CSS, JavaScript, and basic web development</li>
-                            <li>Participated in inter-institute coding challenges and workshops on cybersecurity.</li>
+                            <li>Gained hands-on experience with HTML, CSS, JavaScript, and web development</li>
+                            <li>Participated in inter-institute coding challenges and workshops on Data Science.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <!-- Item 3 -->
+                 <div class="edu-item">
+                    <span class="edu-dot"></span>
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <h3 class="edu-degree">Certificate in Freelancing</h3>
+                            <span class="edu-year"><i class="fas fa-calendar-alt"></i> 2022</span>
+                        </div>
+                        <div class="edu-meta">
+                            <span><i class="fas fa-school"></i> Aptech Clifton</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</span>
+                            <span><i class="fas fa-award"></i> Completed</span>
+                        </div>
+                        <ul class="edu-points">
+                            <li>Explored freelance platforms and client communication strategies</li>
+                            <li>Engaged in coding competitions and attended workshops on Data Science and emerging tech</li>
                         </ul>
                     </div>
                 </div>
@@ -286,28 +315,33 @@
                         <div class="exp-status">Current</div>
                     </div>
                     <div class="exp-content">
-                        <h3 class="exp-title">Full Stack Developer</h3>
-                        <div class="exp-company">Freelance</div>
+                        <h3 class="exp-title">Teaching Faculty - Full Stack Development</h3>
+                        <div class="exp-company">Aptech Pakistan</div>
                         <div class="exp-duration">
                             <i class="fas fa-calendar-alt"></i>
-                            <span>Jan 2023 – Present</span>
-                            <span class="exp-period">1+ years</span>
+                            <span>sept 1 – Present</span>
+                            <span class="exp-period">ongoing</span>
                         </div>
                         <div class="exp-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            Remote
+                            onsite Karachi, Pakistan
                         </div>
                         <ul class="exp-achievements">
-                            <li><i class="fas fa-check-circle"></i> Delivered 10+ full-stack web applications using modern technologies</li>
-                            <li><i class="fas fa-check-circle"></i> Implemented responsive UIs, REST APIs, and secure authentication systems</li>
-                            <li><i class="fas fa-check-circle"></i> Collaborated with international clients to deliver high-quality solutions</li>
-                            <li><i class="fas fa-check-circle"></i> Maintained 98% client satisfaction rate with on-time project delivery</li>
+                            <li><i class="fas fa-check-circle"></i> Instructed students in full-stack web development,
+                                focusing on real-world project delivery</li>
+                            <li><i class="fas fa-check-circle"></i> Designed and delivered curriculum on front-end,
+                                back-end, and database technologies</li>
+                            <li><i class="fas fa-check-circle"></i> Mentored students through capstone projects, code
+                                reviews, and career guidance</li>
+                            <li><i class="fas fa-check-circle"></i> Developed internal tools to streamline grading and
+                                feedback processes</li>
                         </ul>
                         <div class="exp-skills">
                             <span class="skill-tag">JavaScript</span>
                             <span class="skill-tag">PHP</span>
                             <span class="skill-tag">Laravel</span>
                             <span class="skill-tag">React</span>
+                            <span class="skill-tag">JavaScript</span>
                             <span class="skill-tag">MySQL</span>
                         </div>
                     </div>
@@ -322,21 +356,25 @@
                     </div>
                     <div class="exp-content">
                         <h3 class="exp-title">Web Developer Intern</h3>
-                        <div class="exp-company">ABC Software House</div>
+                        <div class="exp-company">Startups Pakistan</div>
                         <div class="exp-duration">
                             <i class="fas fa-calendar-alt"></i>
-                            <span>Jun 2023 – Aug 2023</span>
+                            <span>Jun 2025 – Aug 2025</span>
                             <span class="exp-period">3 months</span>
                         </div>
                         <div class="exp-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            Karachi, Pakistan
+                            onsite Karachi, Pakistan
                         </div>
                         <ul class="exp-achievements">
-                            <li><i class="fas fa-check-circle"></i> Developed responsive web components for internal dashboard systems</li>
-                            <li><i class="fas fa-check-circle"></i> Improved application performance by 30% through code optimization</li>
-                            <li><i class="fas fa-check-circle"></i> Collaborated with senior developers using Git workflows and code reviews</li>
-                            <li><i class="fas fa-check-circle"></i> Gained hands-on experience with modern development practices</li>
+                            <li><i class="fas fa-check-circle"></i> Developed responsive web components for internal
+                                dashboard systems</li>
+                            <li><i class="fas fa-check-circle"></i> Improved application performance by 30% through code
+                                optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Collaborated with senior developers using Git
+                                workflows and code reviews</li>
+                            <li><i class="fas fa-check-circle"></i> Gained hands-on experience with modern development
+                                practices</li>
                         </ul>
                         <div class="exp-skills">
                             <span class="skill-tag">HTML5</span>
@@ -358,19 +396,20 @@
                     </div>
                     <div class="exp-content">
                         <h3 class="exp-title">Looking for My Next Role</h3>
-                        <div class="exp-company">Your Company?</div>
+                        <div class="exp-company"></div>
                         <div class="exp-duration">
                             <i class="fas fa-calendar-alt"></i>
                             <span>Available Now</span>
                         </div>
                         <div class="exp-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            Remote / Karachi
+                            Remote / Onsite / Hybrid / Karachi
                         </div>
                         <ul class="exp-achievements">
                             <li><i class="fas fa-star"></i> Passionate about creating innovative web solutions</li>
                             <li><i class="fas fa-star"></i> Eager to contribute to a dynamic development team</li>
-                            <li><i class="fas fa-star"></i> Ready to take on challenging projects and grow professionally</li>
+                            <li><i class="fas fa-star"></i> Ready to take on challenging projects and grow
+                                professionally</li>
                             <li><i class="fas fa-star"></i> Committed to writing clean, maintainable code</li>
                         </ul>
                         <div class="exp-cta">
@@ -379,11 +418,54 @@
                             </a>
                         </div>
                     </div>
+
                 </div>
+
+                <!-- Experience Card 2 -->
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-header">
+                        <div class="exp-company-logo">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="exp-status">Freelance</div>
+                    </div>
+                    <div class="exp-content">
+                        <h3 class="exp-title">Upwork Sales Specialist</h3>
+                        <div class="exp-company">Startups Pakistan</div>
+                        <div class="exp-duration">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>April 2025 – Jun</span>
+                            <span class="exp-period">2 Months</span>
+                        </div>
+                        <div class="exp-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Onsite Karachi
+                        </div>
+                        <ul class="exp-achievements">
+                            <li><i class="fas fa-check-circle"></i> Secured high-quality leads and converted them into
+                                long-term clients</li>
+                            <li><i class="fas fa-check-circle"></i> Created persuasive proposals tailored to client
+                                needs across tech and digital services</li>
+                            <li><i class="fas fa-check-circle"></i> Achieved a 60%+ proposal-to-contract conversion rate
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Collaborated closely with development teams to scope
+                                projects accurately</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="skill-tag">Lead Generation</span>
+                            <span class="skill-tag">Client Communication</span>
+                            <span class="skill-tag">Proposal Writing</span>
+                            <span class="skill-tag">CRM Tools</span>
+                            <span class="skill-tag">Upwork</span>
+                            <span class="skill-tag">Sales Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    
+
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
@@ -395,198 +477,15 @@
                 <button class="filter-btn" data-filter="api">APIs</button>
             </div>
             <div class="projects-grid" id="projectsGrid">
-                <!-- Project Card 1 -->
-                <div class="project-card" data-category="web" data-aos="fade-up">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/ecommerce-platform" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://ecommerce-demo.netlify.app" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">E-Commerce Platform</h3>
-                            <span class="project-category web">Web App</span>
-                        </div>
-                        <p class="project-description">
-                            A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, payment processing with Stripe, product management, shopping cart functionality, and comprehensive admin dashboard with analytics.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Stripe</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 2 -->
-                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <div class="project-placeholder task-manager">
-                            <i class="fas fa-tasks"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/task-manager" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://task-manager-demo.netlify.app" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Task Management App</h3>
-                            <span class="project-category web">Web App</span>
-                        </div>
-                        <p class="project-description">
-                            A collaborative task management application with real-time updates using Socket.io, drag-and-drop functionality, team collaboration features, project timelines, and notification system. Built with Vue.js and PostgreSQL for scalability.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Socket.io</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 3 -->
-                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
-                    <div class="project-image">
-                        <div class="project-placeholder weather">
-                            <i class="fas fa-cloud-sun"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/weather-app" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://expo.dev/@yourusername/weather-app" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Weather Mobile App</h3>
-                            <span class="project-category mobile">Mobile</span>
-                        </div>
-                        <p class="project-description">
-                            A React Native weather application with location-based forecasts, interactive maps using MapBox, push notifications for weather alerts, offline data caching, and beautiful animated weather icons. Integrates with OpenWeather API.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React Native</span>
-                            <span class="tech-tag">MapBox</span>
-                            <span class="tech-tag">OpenWeather API</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 4 -->
-                <div class="project-card" data-category="api" data-aos="fade-up">
-                    <div class="project-image">
-                        <div class="project-placeholder api">
-                            <i class="fas fa-server"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/api-service" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://api-service-docs.herokuapp.com" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">RESTful API Service</h3>
-                            <span class="project-category api">API</span>
-                        </div>
-                        <p class="project-description">
-                            A scalable RESTful API service built with Node.js and Express, featuring JWT authentication, rate limiting, Redis caching, input validation, error handling, and comprehensive API documentation using Swagger. Deployed on AWS with CI/CD pipeline.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Express</span>
-                            <span class="tech-tag">Redis</span>
-                            <span class="tech-tag">AWS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 5 -->
-                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <div class="project-placeholder portfolio">
-                            <i class="fas fa-user-circle"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/portfolio" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://yourportfolio.netlify.app" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Portfolio Website</h3>
-                            <span class="project-category web">Web App</span>
-                        </div>
-                        <p class="project-description">
-                            A responsive portfolio website built with vanilla JavaScript, featuring dynamic content loading from JSON, dark/light mode toggle, smooth scroll animations using AOS library, contact form validation, and admin panel for content management.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">AOS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Card 6 -->
-                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
-                    <div class="project-image">
-                        <div class="project-placeholder chat">
-                            <i class="fas fa-comments"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <a href="https://github.com/yourusername/chat-app" target="_blank" class="project-link" aria-label="View GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://chat-app-demo.herokuapp.com" target="_blank" class="project-link" aria-label="View Demo">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Real-time Chat Application</h3>
-                            <span class="project-category web">Web App</span>
-                        </div>
-                        <p class="project-description">
-                            A real-time chat application with private messaging, group chats, file sharing capabilities, emoji support, message encryption, and user presence indicators. Built with React and Socket.io, featuring Cloudinary for media storage.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Socket.io</span>
-                            <span class="tech-tag">MongoDB</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- Projects will be loaded dynamically -->
+            </div>
+            <div class="projects-loading" id="projectsLoading">
+                <div class="spinner"></div>
+                <p>Loading projects...</p>
             </div>
         </div>
     </section>
-    
+
     <!-- Resume Section -->
     <section id="resume" class="resume">
         <div class="container">
@@ -616,8 +515,8 @@
             <div class="contact-content">
                 <div class="contact-info" data-aos="fade-right">
                     <h3>Let's work together!</h3>
-                    <p>I'm always interested in new opportunities and exciting projects. 
-                       Feel free to reach out if you'd like to collaborate or just say hello!</p>
+                    <p>I'm always interested in new opportunities and exciting projects.
+                        Feel free to reach out if you'd like to collaborate or just say hello!</p>
                     <div class="contact-methods">
                         <div class="contact-method">
                             <i class="fas fa-envelope"></i>
@@ -636,7 +535,8 @@
                         <a href="https://github.com/faizanfareed275" target="_blank" aria-label="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/faizan-fareed-63546425b/" target="_blank" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/faizan-fareed-63546425b/" target="_blank"
+                            aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
                         </a>
                         <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter">
@@ -696,10 +596,9 @@
                 <div class="footer-links">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
-                    <a href="#education" class="nav-link">Education</a>
-                    <a href="#experience" class="nav-link">Experience</a>
-                    <a href="#projects" class="nav-link">Projects</a>
-                    <a href="#resume" class="nav-link">Resume</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#resume">Resume</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <div class="footer-social">
@@ -719,7 +618,7 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
-   
+
     <!-- Toast Notification -->
     <div class="toast" id="toast">
         <div class="toast-content">
@@ -732,5 +631,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
     <script src="./scripts/form-validation.js"></script>
+    <script src="./scripts/project-loader.js"></script>
 </body>
+
 </html>
