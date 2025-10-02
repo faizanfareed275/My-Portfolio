@@ -1,26 +1,28 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, payment processing with Stripe, product management, shopping cart functionality, and comprehensive admin dashboard with analytics.",
-    "technologies": ["React", "Node.js", "MongoDB", "Stripe", "JWT", "Redux", "Express"],
+    "title": "Social Nation",
+    "description": "A Social Media Application",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "Laravel", "SQL"],
     "category": "web",
     "image": "./assets/images/project1.jpg",
-    "github": "https://github.com/yourusername/ecommerce-platform",
-    "demo": "https://ecommerce-demo.netlify.app",
+    "github": "https://github.com/faizanfareed275/Social-Nation-",
+    "demo": "#",
     "featured": true
-  },
+  }
+  ,
   {
     "id": 2,
-    "title": "Task Management App",
-    "description": "A collaborative task management application with real-time updates using Socket.io, drag-and-drop functionality, team collaboration features, project timelines, and notification system. Built with Vue.js and PostgreSQL for scalability.",
-    "technologies": ["Vue.js", "Socket.io", "Express", "PostgreSQL", "Vuex", "JWT"],
+    "title": "Travel Webpage",
+    "description": "Responsive travel landing page with Bootstrap",
+    "technologies": ["HTML", "CSS", "Bootstrap"],
     "category": "web",
     "image": "./assets/images/project2.jpg",
-    "github": "https://github.com/yourusername/task-manager",
-    "demo": "https://task-manager-demo.netlify.app",
+    "github": "https://github.com/faizanfareed275/travel-Webpage",
+    "demo": "#",
     "featured": true
-  },
+  }
+  
   {
     "id": 3,
     "title": "Weather Mobile App",
