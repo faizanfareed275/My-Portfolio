@@ -44,11 +44,12 @@
   to = "/?admin=true"
   status = 302
 
-# SPA fallback (needed if you ever use client-side routing like React/Angular)
+# Handle SPA routing (if needed in future)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  conditions = {Role = ["admin"]}
 
 # Security redirects
 [[redirects]]
